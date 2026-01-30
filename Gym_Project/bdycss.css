@@ -1,0 +1,181 @@
+.div1{
+    width: 100%;
+    height: 500px;
+    margin-left: 0.2%;
+    /*margin-top: 60px;*/
+    border: #ccccff;
+    /*border-style: solid;*/
+    background-image: url("img/img-bdybuilding/gym4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.div11{
+    width: 32%;
+    height: 100%;
+    color: lightblue;
+    font-size: 1.3em;
+    overflow: auto;
+    float: right;
+}
+
+
+/************Gallery****************/
+.divgall1{
+    width: 31%;
+    height: 350px;
+    /*margin-left: 0.2%;*/
+    /*margin-top: 60px;*/
+    /*border: #ccccff;*/
+    /*border-style: solid;*/
+    background-image: url("img/img-bdybuilding/gym4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.event{
+    width: 100%;
+    height: 400px;
+}
+
+.eventdiv{
+    width: 100%;
+    height: 400px;
+    background-image: url("img/img-bdybuilding/gym1.jpg");
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+    margin-left: 0.4%;
+    text-align: center;
+}
+
+.eventdetail{
+    width: 40%;
+    height: 100%;
+    /*background-color: background;*/
+    text-align: center;
+    font-size: 1.2em;
+    float: right;
+}
+/************WHAT WE DO****************/
+.event1{
+    width: 100%;
+    height: 400px;
+}
+
+.eventdiv1{
+    width: 48.5%;
+    height: 400px;
+    background-image: url("img/img-bdybuilding/gym1.jpg");
+    background-repeat: no-repeat;
+    background-size: 48.5% 100%;
+    margin-left: 0.5%;
+    text-align: center;
+    overflow: hidden;
+    overflow-x: no-content;
+}
+
+.eventdetail1{
+    width: 51.0%;
+    height: 100%;
+    /*background-color: background;*/
+    text-align: justify;
+    font-size: 1.2em;
+    margin-right: -4px;
+    float: right;
+}
+/************CONTACT****************/
+.divcon{
+    width:100%;
+    height:600px;
+    background-image: url("img/img-bdybuilding/gym4.jpg");
+    /*background-repeat: no-repeat;*/
+    /*background-size: 40% 100%;*/
+    margin-left: 0.2%;
+    overflow: hidden;
+}
+
+.divmail{
+    width: 55%;
+    height: 93.4%;
+    background-image: url("img/bg2.jpg");
+    float: right;
+    color: buttonhighlight;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+h2{
+    text-align: center;
+}
+
+input[type=text], textArea{
+  width: 92%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-image: url("img/bg.jpg");
+}
+
+input[type=submit],button {
+  width: 10%;
+  background-image: url("img/bg.jpg");
+  padding: 4px;
+  font-size: 1.5em;
+  font-family: monospace;
+  margin: 1px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.divcon2{
+    width:95%;
+    height:600px;
+    /*background-image: url("img/bg.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 40% 100%;*/
+    margin-left: 5.5%;
+    margin-top: 5%;
+}
+
+.feedbackk{
+    width: 55%;
+    height: 100%;
+    /*background-image: url("img/bg2.jpg");*/
+    float: right;
+    overflow: auto;
+    margin-top: -50%;
+    /*padding: 100px;*/
+    /*color: white;*/
+    /*position: absolute;*/
+}
+
+
+
+/************Schedule****************/
+.tablediv{
+    margin-left: 10px;
+    margin-top: 50px;
+    
+}
+
+table{
+    width: 100%;
+    /*height: 600px;*/
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+}
+th{
+    border: 2px solid black;
+    
+}
+td{
+    border: 2px solid black;
+    height: 80px;
+}
+
